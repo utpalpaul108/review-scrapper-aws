@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="jumbotron mt-5">
+    <h2 class="mx-auto center mb-4">Search Product on Flipkart</h2>
+    <form action="/search" method="post">
+      <div class="form-group">
+        <input type="text" class="form-control" id="product_name" placeholder="Product Name" name="query">
+      </div>
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+  </div>
+{% endblock content %}
+
+

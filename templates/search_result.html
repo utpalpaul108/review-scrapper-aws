@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+  <div class="container">
+    <h2 class="mt-5 mb-3">Product Reviews</h2>
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th>Product</th>
+          <th>Name</th>
+          <th>Rating</th>
+          <th>Comment Heading</th>
+          <th>MyComment</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for review in reviews %}
+          <tr>
+            <td>{{ review["product"] }}</td>
+            <td>{{ review["name"] }}</td>
+            <td>{{ review["rating"] }}</td>
+            <td>{{ review["comment_head"] }}</td>
+            <td>{{ review["comment"] }}</td>
+            <td>{{ review["comment"] }}</td>
+          </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+  </div>
+
+{% endblock content %}
