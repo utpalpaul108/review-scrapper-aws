@@ -10,7 +10,7 @@ This repository contains a set of tools and scripts for web scraping e-commerce 
 
 - **Scalability**: Easily scale the scraping process to collect reviews from multiple products and platforms.
 - **Customization**: Adapt the scripts to suit different e-commerce websites and review formats.
-- **Data Analysis**: Analyze and visualize the gathered data to extract meaningful trends and patterns.
+- **Search Option**: Here, you can easily search for your desired products and extract the customer review of a specific product.
 
 ## Getting Started
 
@@ -18,36 +18,46 @@ This repository contains a set of tools and scripts for web scraping e-commerce 
 
 - Python 3.x
 - Beautiful Soup
-- Requests library
 
-### Installation
 
-1. Clone the repository:
+### Steps to run
 
-   ```bash
-   git clone https://github.com/your-username/web-scraping-reviews.git
-   ```
+<div style="padding-bottom:10px"><b>STEP 00 :</b> Clone the repository</div>
 
-2. Install dependencies:
+```bash
+git clone https://github.com/utpalpaul108/review-scrapper-aws.git
+```
+<div style="padding-top:10px"><b>STEP 01 :</b> Create a virtial environment after opening the repository</div>
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+Using Anaconda Virtual Environments
 
-## Usage
+```bash
+conda create -n venv python=3.10 -y
+conda activate venv
+```
+Or for Linux operating system, you can use that
 
-1. Navigate to the `src` directory.
+```bash
+python3.10 -m venv venv
+source venv/bin/activate
+```
 
-2. Run the main scraping script:
+<div style="padding-top:10px; padding-bottom:10px"><b>STEP 02 :</b> Install the requirements</div>
 
-   ```bash
-   python scrape_reviews.py
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-   Customize the script parameters as needed for your target platform and product.
+Finally, run the following command to open your application:
+```bash
+python app.py
+```
 
-3. Analyze the collected data using the provided analysis tools:
+<div style="padding-top:10px"><b>STEP 03 :</b> Open the application</div>
 
-   ```bash
-   python analyze_data.py
-   ```
+Now, open up your local host with a port like that on your web browser.
+```bash
+http://localhost:8080
+```
+
+After opening the application, you will see a search box. Here, you can search for any product and extract the product review in a csv file.
