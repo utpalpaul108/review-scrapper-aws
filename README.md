@@ -4,7 +4,8 @@
 
 ## Overview
 
-This repository contains a set of tools and scripts for web scraping e-commerce product reviews. The goal is to gather valuable insights and data from customer reviews on various online platforms.
+
+The Web Scraping E-Commerce Product Reviews project aims to gather and analyze customer feedback and reviews from various e-commerce websites. This project involves leveraging web scraping techniques to extract relevant data from product pages, including customer reviews, ratings, product specifications, and other pertinent information. Ultimately empowering businesses to make data-driven decisions and enhance the overall customer experience.
 
 ## Features
 
