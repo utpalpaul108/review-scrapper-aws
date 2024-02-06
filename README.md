@@ -10,7 +10,7 @@ This repository contains a set of tools and scripts for web scraping e-commerce 
 
 - **Scalability**: Easily scale the scraping process to collect reviews from multiple products and platforms.
 - **Customization**: Adapt the scripts to suit different e-commerce websites and review formats.
-- **Search Option**: Here, you can easily search for your desired products and extract the customer review of a specific product.
+- **Search Option**: Search for your desired products and extract the customer review of a specific product.
 
 ## Getting Started
 
@@ -60,4 +60,4 @@ Now, open up your local host with a port like that on your web browser.
 http://localhost:8080
 ```
 
-After opening the application, you will see a search box. Here, you can search for any product and extract the product review in a csv file.
+After opening the application, you will find a search box. Here, you can search for any product and extract the product review in a csv file.
